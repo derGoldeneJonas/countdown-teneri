@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown to Tenerife</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="passwordPrompt()">
+    <div class="container">
+        <h1>Counting down to Tenerife with you 🦦</h1>
+        
+        <!-- Countdown Timer -->
+        <div class="countdown">
+            <div id="days" class="time"></div>
+            <div id="hours" class="time"></div>
+            <div id="minutes" class="time"></div>
+            <div id="seconds" class="time"></div>
+        </div>
+        
+        <p class="subtext">Freue mich so sehr aufs Surfen und Entdecken mit dir!</p>
+    </div>
+    <footer>
+        <p onclick="burstConfetti()">Made with ❤️ for Nele</p>
+    </footer>
+
+    <div class="otters">
+        <span class="otter" style="bottom: 5%; left: 20%;">🦦</span>
+        <span class="otter" style="bottom: 10%; left: 35%;">🦦</span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
